@@ -39,7 +39,7 @@ This project is a simple book recommendation chatbot using Streamlit for the fro
    ```
    pip install -r requirements.txt
    ```
-3. Set your OpenAI API key as an environment variable:
+3. Set your OpenAI API key as an environment variable in .env file:
    ```
    export OPENAI_API_KEY='your_openai_api_key'
    ```
