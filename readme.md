@@ -86,5 +86,5 @@ Recommendations will be separated by a line.
 - `.env`: OpenAI api key stored in environement to secure it.
 
 ## Video Demonstration
-
+https://youtu.be/pHj_4pdHmdE
 
