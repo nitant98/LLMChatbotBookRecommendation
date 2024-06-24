@@ -40,6 +40,22 @@ This project is a simple book recommendation chatbot using Streamlit for the fro
    pip install -r requirements.txt
    ```
 3. Set your OpenAI API key as an environment variable:
-  ```
+   ```
    export OPENAI_API_KEY='your_openai_api_key'
-  ```
+   ```
+
+### Installation
+
+1. Start the Flask backend:
+   ```
+   python backend.py
+   ```
+2. Start the Streamlit frontend:
+   ```
+   streamlit run app.py
+   ```
+3. Open your browser and go to http://localhost:8501 to interact with the chatbot.
+
+
+
+
