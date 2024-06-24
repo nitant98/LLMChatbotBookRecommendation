@@ -56,6 +56,35 @@ This project is a simple book recommendation chatbot using Streamlit for the fro
    ```
 3. Open your browser and go to http://localhost:8501 to interact with the chatbot.
 
+## Usage
 
+To use the chatbot, type your book-related query into the input field on the application's interface and click "Submit". Ensure each query starts with the word "book". The chatbot will respond with book recommendations or information based on your query.
+
+### Example Queries
+
+- "book like 'To Kill a Mockingbird'"
+- "book with genre science fiction"
+- "book published in 2020"
+
+### Example Output
+
+Upon submitting a query, the chatbot will provide recommendations in the following format:
+
+- **Book Name:** [Book Name]
+- **Publisher:** [Publisher]
+- **Year:** [Year]
+- **Author:** [Author]
+- **Genre:** [Genre]
+- **Description:** [Description]
+
+Recommendations will be separated by a line.
+
+## File Structure
+
+- `backend.py`: Contains the Flask backend, which processes user queries and interfaces with the OpenAI GPT-4 API.
+- `app.py`: Implements the Streamlit frontend, which manages the user interface for entering queries and displaying recommendations.
+- `.env`: OpenAI api key stored in environement to secure it.
+
+## Video Demonstration
 
 
